@@ -73,3 +73,25 @@ footer a {
   text-decoration: none;
   font-weight: bold;
 }
+.time {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.time small {
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+
+@media (max-width: 600px) {
+  .time {
+    font-size: 20px;
+  }
+
+  .time small {
+    font-size: 14px;
+  }
+}
